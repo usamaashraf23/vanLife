@@ -19,7 +19,7 @@ function Home() {
           You got the travel plans, we got the travel vans.
         </h2>
         <p className=" text-2xl text-white font-bold   pt-14">
-          Add adventure to your life by joining the #vanlife movement. Rent the
+          Add adventure to your life by joining the vanlife movement. Rent the
           perfect van to make your perfect road trip.
         </p>
         <div className="flex justify-center py-20">
