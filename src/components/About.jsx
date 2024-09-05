@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AboutPic from "../assets/aboutUs.png";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -30,9 +31,11 @@ function About() {
             <h3 className=" text-3xl font-bold">
               Your destination is waiting. Your van is ready.
             </h3>
-            <button className=" bg-black text-white p-4 rounded-lg font-bold mt-6">
-              Explore Our Vans
-            </button>
+            <Link to="/vans">
+              <button className=" bg-black text-white p-4 rounded-lg font-bold mt-6">
+                Explore Our Vans
+              </button>
+            </Link>
           </div>
         </div>
       </main>
